@@ -112,8 +112,8 @@ export default function Auth() {
         {!isLoading && (
           <div className="bg-gray-800 p-8 rounded-lg shadow-lg w-full max-w-md border border-gray-700 flex flex-col items-center">
             <div className="flex items-center space-x-3 mb-4">
-              <Image src="/nextjs-icon.svg" alt="Next.js Logo" width={40} height={40} />
-              <h2 className="text-2xl font-semibold">{messages.auth?.login_title}</h2>
+              <Image src="/chatbot_logo.svg" alt="ChatBot Logo" width={60} height={60} />
+              <h2 className="text-2xl text-amber-200 font-semibold">{messages.auth?.login_title}</h2>
             </div>
 
             <form onSubmit={handleLogin} className="w-full">
